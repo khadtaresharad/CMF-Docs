@@ -34,7 +34,7 @@ az login
 3. Create a tunnel running following command:
 
 ```shell
-az network bastion tunnel --name "cmf2-vnet-bastion" --resource-group "rg-sql-migration-dev" --target-resource-id "/subscriptions/edf6dd9d-7c4a-4bca-a997-945f3d60cf4e/resourceGroups/rg-allregion-racki-team/providers/Microsoft.Compute/virtualMachines/cmf-cluster1-dc1-node1" --resource-port "22" --port "22"
+az network bastion tunnel --name "cmf2-vnet-bastion" --resource-group "rg-sql-migration-dev" --target-resource-id "/subscriptions/edf6dd9d-7c4a-4bca-a997-945f3d60cf4e/resourceGroups/rg-allregion-racki-team/providers/Microsoft.Compute/virtualMachines/CMF-OSS-DB-Automation" --resource-port "22" --port "22"
 ```
 
 Wait for the following message and keep command prompt running: 
